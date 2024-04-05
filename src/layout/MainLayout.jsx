@@ -1,11 +1,12 @@
+import Home from "./Home";
 
 
 const MainLayout = () => {
-    return (
-        <div>
-            main layout
-        </div>
-    );
+  return (
+    <div>
+    <Home></Home>
+    </div>
+  );
 };
 
 export default MainLayout;
