@@ -7,3 +7,10 @@
 .bg-white > div{
     padding: 0;
 }
+
+#circle { 
+   width: 240px;
+   height: 240px;
+   background: #F7EEE4; 
+   border-radius: 50%;
+}

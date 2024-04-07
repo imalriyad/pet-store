@@ -3,7 +3,10 @@ import { Navbar } from "keep-react";
 export const NavbarComponent = () => {
 
   return (
-    <Navbar fluid={true} className="border px-0">
+    <Navbar
+      fluid={true}
+      className="border max-w-screen-xl px-4 md:px-8 lg:px-14 mx-auto"
+    >
       <Navbar.Container className="flex items-center justify-between">
         <Navbar.Brand>
           <img src="/src/assets/logo.png" alt="logo" className="w-[60%]" />
@@ -72,7 +75,6 @@ export const NavbarComponent = () => {
               viewBox="0 0 18 18"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-
             >
               <path
                 d="M9.00048 17.25C8.72449 17.2497 8.45499 17.1663 8.22704 17.0107C4.85013 14.7183 3.3879 13.1465 2.58138 12.1638C0.862626 10.0691 0.039774 7.91848 0.0629771 5.58957C0.0900475 2.92078 2.23118 0.75 4.83595 0.75C6.73001 0.75 8.04185 1.81691 8.80583 2.70551C8.83003 2.73337 8.85993 2.75572 8.89351 2.77103C8.9271 2.78634 8.96357 2.79427 9.00048 2.79427C9.03739 2.79427 9.07386 2.78634 9.10744 2.77103C9.14103 2.75572 9.17093 2.73337 9.19513 2.70551C9.95911 1.81605 11.2709 0.75 13.165 0.75C15.7698 0.75 17.9109 2.92078 17.938 5.59C17.9612 7.91934 17.1375 10.0699 15.4196 12.1642C14.6131 13.1469 13.1508 14.7187 9.77392 17.0111C9.54592 17.1665 9.27642 17.2498 9.00048 17.25Z"
@@ -87,7 +89,6 @@ export const NavbarComponent = () => {
               viewBox="0 0 22 22"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-            
             >
               <path
                 d="M7.5625 19.25C8.32189 19.25 8.9375 18.6344 8.9375 17.875C8.9375 17.1156 8.32189 16.5 7.5625 16.5C6.80311 16.5 6.1875 17.1156 6.1875 17.875C6.1875 18.6344 6.80311 19.25 7.5625 19.25Z"

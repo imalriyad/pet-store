@@ -1,9 +1,11 @@
 import { NavbarComponent } from "../components/header/Navbar";
+import HeroCompo from "../components/header/HeroCompo";
 
 const Home = () => {
   return (
-    <div className="max-w-screen-xl px-4 md:px-8 lg:px-14 mx-auto">
+    <div className="">
       <NavbarComponent></NavbarComponent>
+      <HeroCompo></HeroCompo>
     </div>
   );
 };
