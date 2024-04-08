@@ -3,7 +3,7 @@ import { Button } from "keep-react";
 
 const Hero = () => {
   return (
-    <div className="bg-[#F9F3EC] min-h-[75vh] py-28 md:px-0 px-6">
+    <div className="bg-[#F9F3EC] min-h-[75vh] pt-28 pb-10 md:px-0 px-6">
       <div className="max-w-screen-xl px-4 md:px-8 lg:px-14 mx-auto">
         <div className="md:flex justify-evenly ">
           <div className="relative md:mx-0 mx-auto" id="circle">
