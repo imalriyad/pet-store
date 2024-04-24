@@ -7,7 +7,7 @@ const Card = () => {
       <div className="bg-[#EEEBE5] rounded-md">
         <img
           src="https://i.ibb.co/qDG1h4N/dog.png"
-          className="w-[240px] object-cover h-[180px]"
+          className="w-[240px] object-cover "
           alt=""
         />
       </div>
@@ -24,10 +24,10 @@ const Card = () => {
         </Rating>
 
         <h1 className="text-xl text-[#eca952]">$18.00</h1>
-        <div className="flex items-center justify-between">
+        <div className="md:flex items-center justify-between">
           <Button
             color="secondary"
-            className="border uppercase border-[#b3b3b0] rounded-sm"
+            className="border text-xs uppercase border-[#b3b3b0] rounded-sm"
             size="xs"
             variant="outline"
           >
@@ -35,7 +35,7 @@ const Card = () => {
           </Button>
           <Button
             color="secondary"
-            className="border border-[#b3b3b0] rounded-sm "
+            className="border md:mt-0 mt-2 border-[#b3b3b0] rounded-sm "
             size="xs"
             variant="outline"
           >

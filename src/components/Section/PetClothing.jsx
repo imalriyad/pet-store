@@ -7,7 +7,7 @@ const PetClothing = () => {
   return (
     <div>
       <SectionTitle></SectionTitle>
-      <div className="grid grid-cols-4 gap-4 pt-6">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-2 pt-6">
         {cradNum.map((map) => (
           <Card key={map}></Card>
         ))}
