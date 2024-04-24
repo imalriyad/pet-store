@@ -1,13 +1,17 @@
 import { NavbarComponent } from "../components/header/Navbar";
 import HeroCompo from "../components/header/HeroCompo";
 import Category from "../components/header/category/Category";
+import PetClothing from "../components/Section/PetClothing";
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
       <NavbarComponent></NavbarComponent>
       <HeroCompo></HeroCompo>
-      <Category></Category>
+      <div className="max-w-screen-xl px-4 md:px-8 lg:px-14 py-10 mx-auto">
+        <Category></Category>
+        <PetClothing></PetClothing>
+      </div>
     </div>
   );
 };
