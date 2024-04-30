@@ -3,6 +3,7 @@ import HeroCompo from "../components/header/HeroCompo";
 import Category from "../components/header/category/Category";
 import PetClothing from "../components/Section/PetClothing";
 import PetFoodies from "../components/Section/PetFoodies";
+import OfferHero from "../components/Section/OfferHero";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <Category></Category>
         <PetClothing></PetClothing>
         <PetFoodies></PetFoodies>
+        <OfferHero></OfferHero>
       
       </div>
     </div>

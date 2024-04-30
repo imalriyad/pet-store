@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import { Button } from "keep-react";
 
-const SectionTitle = () => {
+const SectionTitle = ({sectionTitle}) => {
   return (
     <div className="pt-24">
       <div className="flex items-center justify-between">
-        <h1 className="text-3xl">Pet clothing</h1>
+        <h1 className="text-3xl">{sectionTitle}</h1>
 
         <Button
           color="secondary"
@@ -12,7 +13,7 @@ const SectionTitle = () => {
           size="xs"
           variant="outline"
         >
-          See All
+          Shop All
           <svg
             className="ml-1 -mt-1"
             height="10"
